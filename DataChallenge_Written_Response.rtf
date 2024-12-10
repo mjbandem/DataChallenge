@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Data analysis Challenge written responses:\
+\
+a) I built the model in python, defined as \'91power\'92 with the 4 free parameters. I built the PDFs of the 4 parameters by using the corner library. See DCcorner.png for that plot.\
+\
+b) For the median and 16-84% confidence ranges, I also used the corner library. I will quote the values below for completion:\
+\
+Median value  and 16-84% confidence interval of A: 11.729585810583401 +0.7836676878054991 -0.7901589417375003\
+\
+Median value  and 16-84% confidence interval of P: 7.128768657203838 +0.14991232923523778 -0.14713851638509823\
+\
+Median value  and 16-84% confidence interval of phi: 0.45250142917246783 +0.11624603580598825 -0.1229893884105866\
+\
+Median value  and 16-84% confidence interval of C: 84.35530140280041 +0.5347480538249272 -0.5525550237729391\
+\
+I plotted the data and the median model as well. See data_and_model.png\
+\
+c) Minimum Chi^2 = 9.88\
+DoF = 22\
+Adopting the best model as the null hypothesis, I calculated Pnull as 1-CDF(Chi^2(min), 22 DoF)\
+Pnull = 98.7%\
+\
+This suggests that the model fits the data very well. In fact, one can interpret this as fitting too well, as the Chi^2 << DoF.}
